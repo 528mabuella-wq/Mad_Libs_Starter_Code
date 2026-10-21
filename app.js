@@ -38,12 +38,12 @@ let place = prompt("Enter a place:");
 let musicartist = prompt("Enter a music artist:");
 let song = prompt("Enter a song title:");
 let number1 = Number(prompt("Enter a number:"));
-let animalPlural = prompt("Enter an animal (plural):");
+let animal1 = prompt("Enter an animal (plural):");
 let verb = prompt ("Enter a verb:");
-let noun = prompt("Enter a noun:");
+// let noun = prompt("Enter a noun:");
 let emotion = prompt("Enter an emotion:");
 let number2= Number(prompt("Enter another number:"));
-let animal2 = prompt("Enter another animal:");
+let animal2 = prompt("Enter another animal (plural):");
 let dog = prompt("Enter a dog name:");
 
 
@@ -55,6 +55,10 @@ let number3 = number1 * number2;
 
 
 
-let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animalPlural}</strong> flew through the window and started <strong>${verb}</strong>. The <strong>${animalPlural}</strong> were <strong>${emotion}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}s</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>!`);
+
+
+
+
+let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animal1}</strong> flew through the window and started to <strong>${verb}</strong>. The <strong>${animal1}</strong> were <strong>${emotion}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>!`);
 
 document.getElementById("madlib-output").innerHTML = myStory;
