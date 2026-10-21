@@ -42,18 +42,17 @@ let animal1 = prompt("Enter an animal:");
 let verb = prompt ("Enter a verb:");
 let noun = prompt("Enter a noun:");
 let number2= Number(prompt("Enter another number:"));
-let number3= Number(prompt("Enter another number:"));
 
 let animal2 = prompt("Enter another animal:");
 
 
 // MATH 
 
-number3 = number1 * number2;
+let number3 = number1 * number2;
 
 
 
 
-let myStory =(`One day, ${person1} was fighting ${person2} in ${place}, while ${musicartist} was there singing ${song}. Then, ${number1} ${animal1} flew through the window and started ${verb} The ${animal1}s were ${noun}. Then, ${number2} ${animal2}s decided to join the fight, and then had ${number3} babies with ${person2}!`);
+let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animal1}</strong> flew through the window and started <strong>${verb}</strong>. The <strong>${animal1}s</strong> were <strong>${noun}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}s</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>!`);
 
 document.getElementById("madlib-output").innerHTML = myStory;
