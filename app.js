@@ -45,6 +45,6 @@ let adjective = prompt("Enter an adjective");
 
 
 
-let myStory = `Once upon a time, ${person1} and ${person2} went to ${place} to see ${musicartist} perform their hit song "${song}". They were so excited that they danced like ${animal1}s and sang along with the crowd. Suddenly, a ${adjective} ${noun} appeared on stage, surprising everyone! The number of people in the audience was around ${number1}, making it a night to remember for both ${person1} and ${person2}.`
+let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animal1}</strong> flew through the window and started <strong>${verb}</strong>. The <strong>${animal1}s</strong> were <strong>${noun}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}s</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>!`);
 
 document.getElementById("madlib-output").innerHTML = myStory;
