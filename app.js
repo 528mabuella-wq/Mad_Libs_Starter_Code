@@ -45,6 +45,6 @@ let adjective = prompt("Enter an adjective");
 
 
 
-let myStory = prompt(`One day ${person1} was fighting ${person2} in ${place} with ${musicartist} doing the halftime show singing ${song}`)
+let myStory = prompt(`On Christmas day, ${person1} and ${person2} went to ${place}. They were listening to ${musicartist} and singing along to ${song}. Suddenly, they saw a ${animal1} that was carrying a ${noun}. It was so ${adjective}! They decided to give the ${animal1} ${number1} gifts.`);
 
 document.getElementById("madlib-output").innerHTML = myStory;
