@@ -37,10 +37,14 @@ let person2 = prompt("Enter a name of a another person");
 let place = prompt("Enter a place");
 let musicartist = prompt("Enter a music artist");
 let song = prompt("Enter a song title");
-
-
+let number1 = Number(prompt("Enter a number"));
+let animal1 = prompt("Enter an animal");
+let noun = prompt("Enter a noun");
+let adjective = prompt("Enter an adjective");
 
 
 
 
 let myStory = prompt(`One day ${person1} was fighting ${person2} in ${place} with ${musicartist} doing the halftime show singing ${song}`)
+
+document.getElementById("madlib-output").innerHTML = myStory;
