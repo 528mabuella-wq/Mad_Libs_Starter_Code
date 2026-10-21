@@ -42,8 +42,8 @@ let animal1 = prompt("Enter an animal:");
 let verb = prompt ("Enter a verb:");
 let noun = prompt("Enter a noun:");
 let number2= Number(prompt("Enter another number:"));
-
 let animal2 = prompt("Enter another animal:");
+let dog = prompt("Enter a dog name:");
 
 
 // MATH 
