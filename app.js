@@ -8,11 +8,6 @@
 // TODO: Save all responses in meaningfully named variables using let or const.
 // Hint: let animal = prompt("Enter an animal:");
 // Hint: let age = Number(prompt("Enter an age:"));
-let person1 = prompt("Enter a name of a person");
-let person2 = prompt("Enter a name of a another person");
-let place = prompt("Enter a place");
-let musicartist = prompt("Enter a music artist");
-let song = prompt("Enter a song title");
 
 
 // PART 3 — VARIABLE CHANGES AND CONCATENATION
@@ -37,4 +32,15 @@ let song = prompt("Enter a song title");
 
 // FINAL: Add at least three meaningful comments describing your code.
 // TEST: Try TWO sets of answers and check the browser console for errors.
+let person1 = prompt("Enter a name of a person");
+let person2 = prompt("Enter a name of a another person");
+let place = prompt("Enter a place");
+let musicartist = prompt("Enter a music artist");
+let song = prompt("Enter a song title");
+
+
+
+
+
+
 let myStory = prompt(`One day ${person1} was fighting ${person2} in ${place} with ${musicartist} doing the halftime show singing ${song}`)
