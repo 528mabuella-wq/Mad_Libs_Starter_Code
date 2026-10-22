@@ -46,7 +46,7 @@ let animal2 = prompt("Enter another animal:");
 let dog = prompt("Enter a dog's name:");
 let food= prompt("Enter a food:");
 let person3 = prompt("Enter a 3rd person:");
-let adjective = prompt("Enter an adjective:");
+let action = prompt("Enter an action:");
 let emotion2 = prompt("Enter a a second emotion:");
 let weapon1 = prompt("Enter a weapon:");
 let weapon2 = prompt("Enter a weapon:");
@@ -63,6 +63,6 @@ let number4 = number1 + number2;
 
 
 
-let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animal1}s</strong> flew through the window and started <strong>${verb}</strong>, because <strong>${animal1}s</strong> were <strong>${emotion1}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}s</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>! Then, <strong>${person1}'s</strong> pet dog, <strong>${dog}</strong>, walked in ordered <strong>${food}</strong> for everyone. However, <strong>${person3}</strong>, who was in the corner <strong>${adjective}</strong>, was ${emotion2} so him and his ${number4} goons pulled out their <strong>${weapon1}</strong> and started attacking everyone! It led to the death of <strong>${person2}</strong>, and <strong>${person1}</strong> decided to kill <strong>${person3}</strong> with his <strong>${weapon2}</strong>. The end.`);
+let myStory =(`One day, <strong>${person1}</strong> was fighting <strong>${person2}</strong> in <strong>${place}</strong>, while <strong>${musicartist}</strong> was there singing <strong>${song}</strong>. Then, <strong>${number1}</strong> <strong>${animal1}s</strong> flew through the window and started <strong>${verb}</strong>, because <strong>${animal1}s</strong> were <strong>${emotion1}</strong>. Then, <strong>${number2}</strong> <strong>${animal2}s</strong> decided to join the fight, and then had <strong>${number3}</strong> babies with <strong>${person2}</strong>! Then, <strong>${person1}'s</strong> pet dog, <strong>${dog}</strong>, walked in ordered <strong>${food}</strong> for everyone. However, <strong>${person3}</strong>, who was in the corner <strong>${action}</strong>, was <strong>${emotion2}</strong> so him and his <strong>${number4}</strong> goons pulled out their <strong>${weapon1}s</strong> and started attacking everyone! It led to the death of <strong>${person2}</strong>, and <strong>${person1}</strong> decided to kill <strong>${person3}</strong> with his <strong>${weapon2}</strong>. The end.`);
 
 document.getElementById("madlib-output").innerHTML = myStory;
